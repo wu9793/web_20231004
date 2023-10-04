@@ -27,8 +27,9 @@
         table,
         tr,
         td {
-            border: 1px solid black;
+            /* border: 1px solid black; */
             border-collapse: collapse;
+            text-align: center;
         }
 
         table {
@@ -38,6 +39,16 @@
         .td1 {
             width: 30%;
         }
+
+        .td2{
+            line-height: 50px;
+        }
+       
+        video {
+            width: 400px;
+            height: 300px;
+        }
+
     </style>
 </head>
 
@@ -49,8 +60,19 @@
             box
             <table>
                 <tr>
-                    <td class="td1">132</td>
-                    <td class="td2">456</td>
+                    <td class="td1">
+                        <video controls loop muted>
+                            <source src="videos/test.mp4" type="video/mp4">
+                        </video>
+                    </td>
+                    <td class="td2">
+                        <h3>Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo eum nesciunt molestiae
+                            tempore
+                            numquam quia voluptatibus, pariatur non provident beatae recusandae distinctio consectetur
+                            natus
+                            fugit placeat ut. Ullam, perspiciatis veniam?</p>
+                    </td>
                 </tr>
             </table>
         </div>
