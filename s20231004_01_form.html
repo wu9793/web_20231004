@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-skyblue {
+            color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="text-skyblue">
+            數字
+        </h3>
+        <p>
+            <input type="number" name="mynumber" value="123">
+        </p>
+    </div>
+    <div class="container">
+        <h3 class="text-skyblue">
+            日期
+        </h3>
+        <p>
+            <input type="date" value="2023-10-03">
+        </p>
+
+    </div>
+    <div class="container">
+        <h3 class="text-skyblue">
+            單行文字
+        </h3>
+        <p>
+            <input type="text" value="55688" name="mytext">
+        </p>
+    </div>
+
+    <div class="container">
+        <h3 class="text-skyblue">
+            checkbox 單選
+        </h3>
+        <!-- []代表 陣列array 多選 -->
+        <input type="checkbox" name="mycheckbox[]" value="check1">
+        <label for="">html</label>
+        <input type="checkbox" name="mycheckbox[]" value="check2">
+        <label for="">css</label>
+        <input type="checkbox" name="mycheckbox[]" value="check3">
+        <label for="">php</label>
+    </div>
+
+    <div class="container">
+        <h3 class="text-skyblue">
+            下拉式選單
+        </h3>
+        <p>
+            <select name="myselet" id="">
+                <option value="">請選擇</option>
+                <option value="s1">s1</option>
+                <option value="s2">s2</option>
+                <option value="s3">s3</option>
+            </select>
+        </p>
+    </div>
+
+    <div class="container">
+        <h3 class="text-skyblue">
+            radio 單選
+        </h3>
+        <p>
+            <input type="radio" name="myradio" id="item1">
+            <label for="item1"></label>
+            <input type="radio" name="myradio" id="item2">
+            <label for="item2"></label>
+            <input type="radio" name="myradio" id="item3">
+            <label for="item3"></label>
+
+        </p>
+        <p>
+            <input type="reset">
+        </p>
+    </div>
+
+    <div class="container">
+        <h3>
+            password
+        </h3>
+        <input type="password">
+    </div>
+
+    <div class="container">
+        <h3>
+            reset
+        </h3>
+        <input type="reset">
+    </div>
+
+    <div class="container">
+        <h3>
+            <textarea name="myTextarea" id="" cols="80" rows="10">
+                hello 123
+                hello 456
+            </textarea>
+        
+        </h3>
+    </div>
+    <div class="container">
+        <h3>
+        submit
+        </h3>
+        <input type="submit" value="submit">
+    </div>
+
+    
+
+</body>
+
+</html>
